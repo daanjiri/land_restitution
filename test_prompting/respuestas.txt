@@ -1,0 +1,42 @@
+132443121002-201300044-00 El Carmen de Bolívar 17 junio 2015
+{'answers_prompt_0': '1;',
+ 'answers_prompt_1': 'TRIBUNAL SUPERIOR DEL DISTRITO JUDICIAL DE CARTAGENA; 132443121002201300044 00; 06/17/2015; 03/06/2012; 04/15/2013; 1; 1; 1; 1; Bolivar; El Carmen de Bolivar; Hato Nuevo; 0; 0; sí; 2',
+ 'answers_prompt_2': '132443121002201300044 00; 2; Edgardo Alberto Briceño Paredes\\Jonathan Rafael Briceño Andrade; no; no',
+ 'answers_prompt_3': '132443121002201300044 00; 2; no; no; NULL; agricultura',
+ 'answers_prompt_4': '062-28841;132443121002201300044 00;13244000400010001000;29.1706;si;adjudicacion;agricultura;14 de abril del 2000;masacre;paramilitares;AUC;NULL;abandono;NULL;NULL',
+ 'answers_prompt_5': '062-28841;El Tigre — Parcela 11;132443121002201300044 00;si;el mismo;si',
+ 'answers_prompt_6': 'NULL; 132443121002201300044; NULL; NULL; NULL; NULL',
+ 'answers_prompt_7': '1; 132443121002201300044 00; 00726; 2 de junio de 1995; Luis Alfredo Torres Pérez\\INCORA; adjudicacion\n2; 132443121002201300044 00; 01; 3 de octubre de 2008; Comité Departamental de Atención Integral a la Población Desplazada de Bolívar; NULL',
+ 'answers_prompt_8': '06228841;1;9° 45\' 52,140" N;75° 4’ 46,530" W;132443121002201300044\n06228841;3;9° 45\' 48,241" N;75° 4\' 29,227" W;132443121002201300044\n06228841;22;9° 45\' 61,935" N;75° 4’ 31,503" W;132443121002201300044\n06228841;24;9° 45’ 34,277" N;75° 4\' 34,629" W;132443121002201300044\n06228841;31;9° 45\' 32,216" N;75° 4’ 48,759" W;132443121002201300044'}
+
+12-244-31-21-001-2013-00028-00_El_Carmen_de_Bolívar_19-08-2014
+ {'answers_prompt_0': '2',
+ 'answers_prompt_1': 'Tribunal Superior del Distrito Judicial de Cartagena, Sala Civil Especializada en Restitución de Tierras; 12-244-31-21-001-2013-00028-00; 08/19/2014; NULL; NULL; 1; 0; 1; 1; Bolívar; El Carmen de Bolívar; Padula; 0; 1; sí; 2',
+ 'answers_prompt_2': '12-244-31-21-001-2013-00028-00; 2; Guillermo Enrique Sierra Mendoza \\ Electricaribe S.A. E.S.P; no; no',
+ 'answers_prompt_3': '12-244-31-21-001-2013-00028-00; 2; no; no; NULL; ninguno',
+ 'answers_prompt_4': '062-95590;12-244-31-21-001-2013-00028-00;13-244-00-01-0003-0278-000;10.8;si;adjudicacion;agricultura;febrero de 2000;masacre;paramilitares;AUC;NULL;abandono;NULL;ninguno',
+ 'answers_prompt_5': '062-95590;Altamira;12-244-31-21-001-2013-00028-00;si;el mismo;si',
+ 'answers_prompt_6': 'NULL; 12-244-31-21-001-2013-00028-00; NULL; NULL; NULL; NULL; NULL',
+ 'answers_prompt_7': '1; 12-244-31-21-001-2013-00028-00; 0978; 9 de julio de 1984; Luis Ibarra Meza\\Instituto Colombiano de la Reforma Agraria (INCORA); adjudicacion\n2; 12-244-31-21-001-2013-00028-00; NULL; 11 de octubre de 2002; Luis Ibarra Meza\\Guillermo Enrique Sierra Mendoza; venta\n3; 12-244-31-21-001-2013-00028-00; NULL; 24 de enero de 1997; Luis Ibarra Meza\\ELECTROCOSTA S.A. E.S.P; servidumbre',
+ 'answers_prompt_8': '06295590;Punto 166;9°39\'39.460"N;75°7\'37.060"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 167;9°39\'34.997"N;75°7\'31.088"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 168;9°39\'34.415"N;75°7\'30.608"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 169;9°39\'33.509"N;75°7\'29.295"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 170;9°39\'25.571"N;75°7\'40.408"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 171;9°39\'26.877"N;75°7\'41.066"W;12-244-31-21-001-2013-00028-00\n06295590;Punto 172;9°39\'32.180"N;75°7\'44.522"W;12-244-31-21-001-2013-00028-00'}
+
+
+
+12-244-31-21-001-2013-00028-00_El_Carmen_de_Bolívar_19-08-2014
+{'answers_prompt_0': '2',
+ 'answers_prompt_1': 'TRIBUNAL SUPERIOR DEL DISTRITO JUDICIAL DE CARTAGENA; 12-244-31-21-001-2013-00028-00; 08/19/2014; NULL; NULL; 1; 1; 1; 1; Bolivar; El Carmen de Bolivar; Padula; 0; 0; sí; 2',
+ 'answers_prompt_2': '12-244-31-21-001-2013-00028-00; 2; Guillermo Enrique Sierra Mendoza \\ Electricaribe S.A. E.S.P; no; no',
+ 'answers_prompt_3': '12-244-31-21-001-2013-00028-00; 2; no; no; NULL; ninguno',
+ 'answers_prompt_4': '062-95590;12-244-31-21-001-2013-00028-00;13-244-00-01-0003-0278-000;10.8;si;adjudicacion;agricultura;febrero 2000;masacre;paramilitares;AUC;NULL;abandono;NULL;ninguno',
+ 'answers_prompt_5': '062-9590; Altamira; 12-244-31-21-001-2013-00028-00; sí; el mismo; sí',
+ 'answers_prompt_6': 'NULL; 12-244-31-21-001-2013-00028-00; NULL; NULL; NULL; NULL',
+ 'answers_prompt_7': '1; 12-244-31-21-001-2013-00028-00; 0978; 9 de julio de 1984; Luis Ibarra Meza\\Instituto Colombiano de la Reforma Agraria (INCORA); adjudicacion
+                    2; 12-244-31-21-001-2013-00028-00; NULL; NULL; Guillermo Enrique Sierra Mendoza\\Luis Ibarra Meza; venta
+                    3; 12-244-31-21-001-2013-00028-00; NULL; NULL; Guillermo Enrique Sierra Mendoza\\Alfonso Jiménez; venta',
+ 'answers_prompt_8': '06295590;166;9°39\'39.460"N;75°7\'37.060"W;12-244-31-21-001-2013-00028-00
+                    06295590;167;9°39\'34.997"N;75°7\'31.088"W;12-244-31-21-001-2013-00028-00
+                    06295590;168;9°39\'34.415"N;75°7\'30.608"W;12-244-31-21-001-2013-00028-00
+                    06295590;169;9°39\'33.509"N;75°7\'29.295"W;12-244-31-21-001-2013-00028-00
+                    06295590;170;9°39\'25.571"N;75°7\'40.408"W;12-244-31-21-001-2013-00028-00
+                    06295590;171;9°39\'26.877"N;75°7\'41.066"W;12-244-31-21-001-2013-00028-00
+                    06295590;172;9°39\'32.180"N;75°7\'44.522"W;12-244-31-21-001-2013-00028-00'}
