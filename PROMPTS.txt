@@ -1,0 +1,122 @@
+Instructions=["""Instrucciones: Quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’.
+1.El numero de opositores (si no hay responder 0)
+responder en numero entero sin nada mas
+El numero de opositores (si no hay responder 0)
+""",
+"""Instrucciones: Quiero sacar la siguiente informacion del texto anterior. En caso de no encontrar la informacion responder ‘NULL’.
+1. Nombre del Juzgado, Tribunal o Juez que decide el caso 
+2. Radicado de la sentencia
+3. Fecha de la sentencia (responder en formato mes/día/año)
+4. Fecha en la se solicito el predio en restitución (responder en formato mes/día/año)
+5. Fecha en la que se inscribió el predio al Registro Único de Tierras Despojadas y Abandonas Forzosamente (responder en formato mes/día/año)
+6. El número de demandantes
+7. El numero de demandantes que son mujeres
+8. El número total de predios o parcelas demandadas
+9. El número total de predios o parcelas restituidos
+10. Departamento
+11. Municipio
+12. Vereda
+13. Numero de personas heridas en el proceso de desposesion (si no hay responder 0)
+14. Numero de personas muertas en el proceso de desposesion (si no hay responder 0)
+15. Hubo desplazamiento forzado de los demandantes despues de la desposesion? (responder si o no)
+16.El numero de opositores (si no hay responder 0)
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+var1; var2; var3; var4; var5; var6; var7; var8; var9; var10; var11; var12; var13; var14; var15; var16""",
+"""Instrucciones: Quiero sacar la siguiente informacion del pdf, pero enfocandome en el rol de los opositores. En caso de no encontrar la informacion responder ‘NULL’.
+1.Radicado de la sentencia
+2. El numero de opositores (en caso de que no hayan opositores responder 0 y ‘NULL’ en las siguientes preguntas)
+3. Nombres de los opositores (si es mas de uno separarlos por el caracter “\”)
+4. Los opositores probaron/acreditaron buena fe exenta de culpa? (responder si o no) Esto se puede extraer del la parte final del documento.
+5. Los opositores recibieron alguna compensacion economica? (responder si o no)
+Detalles: Como output quiero que me devuelva las respuestas en un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+var1; var2; var3; var4; var5
+""",
+"""
+Instrucciones: Quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’.
+1. Radicado de la sentencia
+2. El numero de opositores (en caso de que no hayan opositores responder 0 y ‘NULL’ en las siguientes preguntas)
+3. Hay pruebas de que los opositores ejercieron directamente violencia/presion/amenazas sobre los demandantes? (responder si o no)
+4. Los opositores estan relacionados con politica, paramilitares, guerrilla, narcotrafico? (responder si o no)
+5. Si los opositores estan relacionados con algun actor, escoger politica, paramilitares, guerrilla, narcotrafico. De lo contrario responder ‘NULL’
+6.Con que actividad productiva estan relacionados los opositores? (escoger entre ganaderia, agricultura, mineria, construccion, ninguno)
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+var1; var2; var3; var4; var5; var6
+Si no hay opositores hacer una fila con `NULL' para cada pregunta.
+""",
+"""
+Instrucciones: Para CADA predio demandado quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’.
+1. Numero de matricula inmobiliaria
+2. Radicado de la sentencia 
+3. Numero de cédula catastral
+4. Tamano/area en hectareas (Solo en numero no quiero texto)
+5. El predio es rural? (responder si o no)
+6. Relacion del demandante con el predio? (elija alguna de las siguientes categorias: propiedad, ocupacion, arriendo, herencia, prescripcion, adjudicacion, otro)
+7. Que uso se le daba al predio antes de la desposesion? (ganaderia, agricultura, mineria, construccion, ninguno)
+8. Fecha en al que el demandante perdio el predio
+9. La posesion se perdio porque razon? (elija alguna de las siguientes categorias: violencia fisica, amenazas, masacre, muerte de familiar o conocido)
+10. Las amenazas o violencia fueron ejercidas por: paramilitares, guerrilla, narcotrafico, bandas criminales (elegir solo una opcion)
+11. Nombre de la empresa, entidad, persona que ejercio amenazas o violencia sobre los demandantes (si es mas de uno separarlos por el caracter “\”)
+12. Nombres de paramilitares, guerrilleros o politicos relacionados con el caso (si es mas de uno separarlos por el caracter “\”)
+13. La posesion se perdio por medio de: venta forzada, venta voluntaria, donacion, adjudicacion, abandono (elegir solo una opcion)
+14. Si hubo venta, cuanto dinero les dieron a cambio por este predio? (respuesta en COP, si no hubo venta responder ‘NULL’)
+15. Que uso se le da al predio despues de la desposesion? (ganaderia, agricultura, mineria, construccion, ninguno)
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+Numero de matricula inmobiliaria 1; Radicado de la sentencia; var3; var4; var5; var6; var7; var8; var9; var10; var11; var12; var13; var14; var15
+Numero de matricula inmobiliaria 2; Radicado de la sentencia; var3; var4; var5; var6; var7; var8; var9; var10; var11; var12; var13; var14; var15
+Numero de matricula inmobiliaria 3; Radicado de la sentencia; var3; var4; var5; var6; var7; var8; var9; var10; var11; var12; var13; var14; var15
+""",
+"""
+Instrucciones: Para CADA predio demandado quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’.
+1. Numero de matricula inmobiliaria
+2. Radicado de la sentencia
+3. Nombre del predio demandado
+4. El juez decidio restituir el predio/parcela? (responder si o no)
+5. Si se restituyo el predio, fue: el mismo, equivalente, dinero (escoger solo una categoria. En caso de que no fuera restituido responder `NULL'
+6. Si se restituyo el predio, se dio la propiedad sobre el? (responder si o no)
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+Numero de matricula inmobiliaria 1; Nombre del predio; Radicado de la sentencia; var3; var4; var5; var6
+Numero de matricula inmobiliaria 2; Nombre del predio; Radicado de la sentencia; var3; var4; var5; var6
+Numero de matricula inmobiliaria 3; Nombre del predio; Radicado de la sentencia; var3; var4; var5; var6
+""",
+""" 
+Instrucciones: Para CADA escritura publica con identificador/numero DIFERENTE y mencionada quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’
+1. Numero de escritura publica
+2. Radicado de la sentencia
+3. Fecha de la escritura publica
+4. Numero de matricula inmobiliaria (Numero únicamente)
+5. Nombres de las personas, empresas o entidades en la escritura publica (si es mas de uno separarlos por el caracter “\”)
+6. La escritura publica es de: venta, donacion, herencia, hipoteca
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+Numero de escritura publica 1 (Numero únicamente); Radicado de la sentencia; var2; var3; var4; var5; var6 var6
+Numero de escritura publica 2 (Numero únicamente);  Radicado de la sentencia; var2; var3; var4; var5; var6
+Numero de escritura publica 3 (Numero únicamente); Radicado de la sentencia; var2; var3; var4; var5; var6
+Si no hay escritura publica hacer una fila con `NULL' para cada pregunta.
+""",
+"""
+Instrucciones: Para CADA acto administritavo o resolucion con identificador/numero DIFERENTE y mencionado quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’.
+1. Numero del acto administritavo o resolucion (Numero únicamente)
+2. Radicado de la sentencia 
+3. Fecha del acto administritavo o resolucion
+4. Nombres de las personas, empresas o entidades en el acto administritavo o resolucion  (si es mas de uno separarlos por el caracter “\”)
+5. El acto administritavo o resolucion es de: adjudicacion, expropiacion, formalizacion, venta, donacion, herencia, hipoteca
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+Numero del acto administritavo o resolucion 1 (Numero únicamente); var2; var3; var4; var5
+Numero del acto administritavo o resolucion 2 (Numero únicamente); var2; var3; var4; var5
+Numero del acto administritavo o resolucion 3 (Numero únicamente); var2; var3; var4; var5
+Si no hay actos administritavos o resoluciones hacer una fila con `NULL' para cada pregunta.
+""",
+""" 
+Instrucciones: Para CADA predio mencionado en el caso quiero sacar la siguiente informacion del pdf. En caso de no encontrar la informacion responder ‘NULL’
+1. Numero de matricula inmobiliaria (Numero únicamente)
+2. Punto
+3. Latitud del punto
+4. Longitud del punto
+5. Radicado de la sentencia
+Detalles: Como output quiero que me devuelva un formato separado por punto y comas. No quiero el archivo csv solo el texto generado. Tampoco quiero los titulos de las columnas, solamente sus respuestas. Este es el formato que quiero:
+Numero de matricula inmobiliaria 1 (Numero únicamente); Punto 1; Latitud; Longitud; Radicado de la sentencia
+Numero de matricula inmobiliaria 1 (Numero únicamente); Punto 2; Latitud; Longitud; Radicado de la sentencia
+….
+Numero de matricula inmobiliaria 2 (Numero únicamente); Punto 1; Latitud; Longitud; Radicado de la sentencia
+Numero de matricula inmobiliaria 2 (Numero únicamente); Punto 2; Latitud; Longitud; Radicado de la sentencia
+"""
+]
